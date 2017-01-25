@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.custom.css" />
     <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+    <link rel="stylesheet" type="text/css" href="css/fotorama.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <script src="js/modernizr.custom.79639.js"></script>
 </head>
@@ -51,7 +52,17 @@
                 <div class="content">
                     <div class="scroller">
                         <h2>Фото</h2>
-
+                        <div class="fotorama"
+                             data-nav="thumbs"
+                             data-width="60%"
+                             data-ratio="800/600"
+                             data-allowfullscreen="true"
+                             data-fit="cover"
+                        >
+                            <img src="img/slider1.jpg">
+                            <img src="img/slider2.jpg">
+                            <img src="img/slider3.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,6 +99,7 @@
 <script src="js/jquery.jscrollpane.min.js"></script>
 <script src="js/jquerypp.custom.js"></script>
 <script src="js/jquery.bookblock.js"></script>
+<script src="js/fotorama.js"></script>
 <script src="js/page.js"></script>
 <script>
     $(function() {

@@ -213,14 +213,7 @@ a:hover {
     background: linear-gradient(to bottom, rgba(85, 85, 85, 0.77) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-.js .content:after {
-	top: auto;
-	bottom: 0;
-	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-	background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-	background: -o-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.69) 0%, rgba(255, 255, 255, 0.2) 100%);
-}
+
 
 .content h2 {
 	font-weight: 300;
@@ -243,6 +236,10 @@ a:hover {
 	font-weight: 300;
 	padding: 5px 8%;
 	text-align: justify;
+}
+
+.fotorama__wrap {
+	margin: auto;
 }
 
 @media screen and (max-width: 800px){
